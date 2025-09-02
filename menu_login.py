@@ -63,6 +63,7 @@ def login():
     print(f"Bienvenido {nombre}, login exitoso.")
 
 
+# --- Función para el menú de opciones ---
 def menu_login():
     while True:
         print("\n=== MENÚ PRINCIPAL ===")
@@ -80,7 +81,7 @@ def menu_login():
         elif opcion == "3":
             login()
         elif opcion == "4":
-            print("👋 Saliendo del programa... ¡Hasta luego!")
+            print("Cerrando sesión...")
             break
         else:
             print("Opción inválida. Intente de nuevo.")
